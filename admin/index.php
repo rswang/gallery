@@ -30,10 +30,10 @@ if(isset($_POST['submit']))
 	}
 
 	//create a mysql connection
-	$dbhost							= "127.0.0.1";
+	$dbhost							= "sql.mit.edu";
 	$dbuser							= "rswang";
 	$dbpass							= "rachel";
-	$dbname							= "gallery.phptos";
+	$dbname							= "gallery";
 
 	$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ("Error connecting to database");
 	mysql_select_db($dbname) or die ("Error selecting the database");
