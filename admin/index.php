@@ -33,7 +33,7 @@ if(isset($_POST['submit']))
 	$dbhost							= "127.0.0.1";
 	$dbuser							= "root";
 	$dbpass							= "";
-	$dbname							= "gallery/photos";
+	$dbname							= "gallery";
 
 	$conn = mysql_connect($dbhost, $dbuser, $dbpass) or die ("Error connecting to database");
 	mysql_select_db($dbname) or die ("Error selecting the database");
